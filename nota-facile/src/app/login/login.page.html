@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="goToBack()">
+        <ion-icon name="chevron-back-outline" color="dark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Log in</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="ion-padding">
+    <div class="main_content_div">
+
+      <div class="texbox">
+        <ion-label>Email</ion-label>
+        <ion-input type="email" fill="outline"></ion-input>
+      </div>
+
+      <div class="texbox"></div>
+      <ion-label>Password</ion-label>
+      <ion-input type="password" fill="outline"></ion-input>
+    </div>
+
+    <ion-button (click)="goToHome()" class="log-in-button" expand="block">Log in</ion-button>
+    <ion-button class="forgot-pass" expand="block" fill="clear" size="small" color="dark" (click)="forgotPassword()">
+      Forgot your password?</ion-button>
+
+  </div>
+</ion-content>
+
+<ion-footer class="footer">
+ <ion-buttons class="footer_btn">
+    Dont have an account?
+    <ion-button (click)="goToRegister()">
+      Sign up
+    </ion-button>
+  </ion-buttons>
+
+</ion-footer>
