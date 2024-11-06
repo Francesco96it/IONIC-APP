@@ -1,0 +1,38 @@
+<ion-page style="background-color: white; width:  100vw; height:  100vh;">
+  
+  <ion-grid style="background-color: white;">
+    <ion-row>
+        <ion-col>
+            <app-back-button></app-back-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear" style="float:right;">
+            <ion-icon name="search" style="color: #ffd900;"></ion-icon>
+          </ion-button>
+        </ion-col>
+    </ion-row>
+</ion-grid>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="--color:black;">Food & Beverage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content class="ion-padding" style="--background: #ffffff;" >
+    <div style="margin-left: -1rem !important;">
+      <app-filter></app-filter>
+    </div>
+    
+    <div class="header">
+        POPULAR CHOICES
+    </div>
+  <div class="carousel">
+      <app-product-card></app-product-card>
+  </div>
+  <h6 class="title">POPULAR CHOICES</h6>
+  <div class="products">
+      <app-product-list></app-product-list>
+  </div>
+  </ion-content>
+</ion-page>
