@@ -1,0 +1,20 @@
+.log-in-button{
+    margin-top: 60px;
+}
+.footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 10px; 
+  }
+  
+  .footer_btn ion-button {
+    color: rgb(14, 85, 143); 
+  }
