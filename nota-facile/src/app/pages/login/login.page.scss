@@ -29,3 +29,12 @@ ion-button{
     margin: 1rem;
     border-radius: 50%;
 }
+
+ion-input {
+    --color: #68ab9f; /* Changes the color of the label */
+}
+
+
+.sign-up-btn{
+    --background: #68ab9f;
+}
