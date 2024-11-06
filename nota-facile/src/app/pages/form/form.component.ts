@@ -1,11 +1,27 @@
 import { Component } from '@angular/core';
+import { IonHeader, IonText, IonButton, IonLabel, IonInput, IonItem, IonContent, IonTitle, IonToolbar } from '@ionic/angular/standalone';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Import FormsModule and ReactiveFormsModule
 
 @Component({
-  selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss'],
+  selector: 'app-form',
+  templateUrl: 'form.component.html',
+  styleUrls: ['form.component.scss'],
+  standalone: true,
+  imports: [
+    IonHeader,
+    IonText,
+    IonButton,
+    IonLabel,
+    IonInput,
+    IonItem,
+    IonContent,
+    IonTitle,
+    IonToolbar,
+    FormsModule,          // Required for using [(ngModel)]
+    ReactiveFormsModule,   // Optional: for reactive forms if needed
+  ],
 })
-export class Tab2Page {
+export class FormComponent {
   fullName: string = '';
   email: string = '';
   password: string = '';
@@ -39,5 +55,3 @@ export class Tab2Page {
     console.log('Redirecting to login...');
   }
 }
-
-
