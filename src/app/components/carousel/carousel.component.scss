@@ -10,11 +10,36 @@ swiper-container {
 }
 swiper-slide {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f7f7f7;
   border-radius: 20px;
 }
 swiper-slide img {
   object-fit: contain;
+}
+.slide1 {
+  background-image: url("../../../assets/img/cat.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button-img {
+  border-radius: 50%;
+  --background: white;
+  --background-hover: #f09319;
+  --background-hover-opacity: 100%;
+  --color: var(--background-hover);
+  --color-hover: var(--bacground);
+  // position: absolute;
+  // bottom: 10px;
+  // right: 5%;
+}
+.post {
+  // position: absolute;
+  // right: 10%;
+  // top: 0;
+  color: #f09319;
+  width: 20%;
+}
+.slide-contain {
+  position: absolute;
+  right: 10%;
 }
