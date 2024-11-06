@@ -1,0 +1,46 @@
+
+  ion-card{
+    // object-fit:contain;
+    width: 100%;
+    height:100%;
+    border-radius: 1.5%;
+  }
+
+  ion-segment-button{
+    width: 70%;
+    height:100%;
+  }
+
+  ion-segment{
+    width: 100%;
+    height: 100%;
+    display: flex;             
+    justify-content: flex-start; 
+    align-items: center; 
+  }
+
+  .container{
+    height: 20rem;
+    width:100%;
+  }
+
+  img{
+    height: 50%;
+    width: 100%;
+  }
+
+ ion-button{
+  --float:right;
+  --background:rgba(119, 199, 230, 0.3);
+  --color: rgb(39, 179, 244);
+  --box-shadow:none;
+ }
+
+ ion-card-content{
+  display: flex;             
+    justify-content: space-between; 
+    align-items: center; 
+ }
+
+
+

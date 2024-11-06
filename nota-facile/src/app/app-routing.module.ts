@@ -5,6 +5,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
+    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path: 'product-listing',
+    loadComponent: () =>import('./pages/product-listing/product-listing.component').then((m) => m.ProductListingComponent)
     redirectTo: 'login',
     pathMatch: 'full',
   },

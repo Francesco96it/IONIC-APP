@@ -1,0 +1,36 @@
+.header{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color:  rgb(180, 174, 174);
+}
+
+.title{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    --tw-text-opacity: 1;
+    color:  rgb(180, 174, 174);
+}
+
+ion-col{
+    padding: 0;
+}
+ion-grid{
+    padding: 0;
+}
+
+ion-header {
+    box-shadow: none !important; 
+  }
+  
+  ion-toolbar {
+    box-shadow: none !important; 
+    height:2.5rem;
+  }
+
+  ion-title{
+    padding:0px;
+    padding-left: 1rem;
+  }

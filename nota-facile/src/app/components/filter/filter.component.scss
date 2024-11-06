@@ -1,0 +1,22 @@
+ion-segment-button{
+    --color-checked:rgb(224, 118, 118); 
+    --indicator-color: rgb(224, 118, 118); 
+    --indicator-height: 4px;
+    color:  rgb(180, 174, 174);
+    background-color: white; 
+    }
+      ion-segment{
+        border-radius: 0; 
+        padding: 0;      
+        box-shadow: -2px 10px 15px 0px rgba(0, 0, 0, 0.1);
+        width: 100vw !important; 
+      }
+      .wrapper{
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5); 
+        z-index: 20;
+      }
+
+      ion-segment-button{
+        text-transform:none;
+      }
+      
