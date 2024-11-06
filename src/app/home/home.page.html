@@ -1,0 +1,96 @@
+<ion-content [fullscreen]="true">
+  <app-search></app-search>
+  <div class="box"></div>
+  <div class="box2">
+    <div class="collectButton">
+      <ion-button class="sec1-button" size="large">
+        <ion-icon slot="icon-only" name="qr-code-outline"></ion-icon>
+      </ion-button>
+      <ion-label>QR Code</ion-label>
+    </div>
+    <div class="collectButton">
+      <ion-button size="large" class="sec1-button">
+        <ion-icon slot="icon-only" name="card"></ion-icon>
+      </ion-button>
+      <ion-label>New Trans</ion-label>
+    </div>
+    <div class="collectButton">
+      <ion-button size="large" class="sec1-button">
+        <ion-icon slot="icon-only" name="wallet"></ion-icon>
+      </ion-button>
+      <ion-label>Cash-in</ion-label>
+    </div>
+    <div class="collectButton end">
+      <ion-button size="large" class="sec1-button">
+        <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+      </ion-button>
+      <ion-label>New Item</ion-label>
+    </div>
+  </div>
+  <section>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/folders.png"
+          ></app-circle-buttons>
+        </ion-col>
+        <ion-col>
+          <app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/tickets.png"
+          ></app-circle-buttons>
+        </ion-col>
+        <ion-col
+          ><app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/handbag.png"
+          ></app-circle-buttons
+        ></ion-col>
+        <ion-col
+          ><app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/diet.png"
+          ></app-circle-buttons
+        ></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col
+          ><app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/heart.png"
+          ></app-circle-buttons
+        ></ion-col>
+        <ion-col
+          ><app-circle-buttons
+            class="collectButton"
+            bus-school
+            label="QR Code"
+            iconName="assets/icons/bus-school.png"
+          ></app-circle-buttons
+        ></ion-col>
+        <ion-col
+          ><app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/repeat.png"
+          ></app-circle-buttons
+        ></ion-col>
+        <ion-col
+          ><app-circle-buttons
+            class="collectButton"
+            label="QR Code"
+            iconName="assets/icons/menu.png"
+          ></app-circle-buttons
+        ></ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+  <app-carousel></app-carousel>
+</ion-content>

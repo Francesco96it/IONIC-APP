@@ -1,0 +1,25 @@
+ion-button {
+  display: flex;
+  align-items: center;
+  --background: rgb(200, 200, 200);
+  width: 90px;
+  height: 90px;
+}
+.icon-image {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 576px) {
+  ion-button {
+    width: 65px;
+    height: 65px;
+  }
+
+  .icon-image {
+    width: 45px;
+    height: 45px;
+  }
+}
