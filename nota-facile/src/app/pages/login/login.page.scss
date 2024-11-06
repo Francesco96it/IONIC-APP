@@ -1,0 +1,31 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+ion-segment{
+    background-color: transparent;
+}
+
+  /* iOS styles */
+ion-segment-button.ios {
+    --color: #fff;
+    --color-checked: #08a391;
+    --border-radius: 20px;
+}
+
+ion-card{
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+ion-card img {
+    width: 65%;
+}
+
+ion-button{
+    margin: 1rem;
+    border-radius: 50%;
+}
